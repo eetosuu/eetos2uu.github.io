@@ -179,9 +179,27 @@ input, textarea, select {
   background-color: #F16D7F;
 }
 
+@media (max-width: 1625px) {
+  .header-menu {
+    left: 0;
+  }
+}
+
+@media (max-width: 1305px) {
+  .header-menu {
+    left: -30%;
+  }
+}
+
 @media (max-width: 1200px) {
   .header-menu {
-    left: -25%;
+    left: 0;
+  }
+}
+
+@media (max-width: 905px) {
+  .header-menu {
+    left: -35%;
   }
 }
 
@@ -2088,6 +2106,12 @@ input, textarea, select {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     gap: 40px;
+  }
+  .products-cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

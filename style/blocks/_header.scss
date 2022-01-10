@@ -100,9 +100,24 @@ transform: rotateY(180deg);
     line-height: 14px;
     background-color: $main-color;
 }
+@media (max-width: 1625px) {
+    .header-menu {
+        left: 0;
+    }
+}
+@media (max-width: 1305px) {
+    .header-menu {
+        left: -30%;
+    }
+}
 @media (max-width: 1200px) {
     .header-menu {
-        left: -25%;
+        left: 0;
+    }
+}
+@media (max-width: 905px) {
+    .header-menu {
+        left: -35%;
     }
 }
 
